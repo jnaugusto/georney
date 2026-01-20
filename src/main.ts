@@ -25,7 +25,7 @@ app.use(createRouter({
     }
   ],
   history: createWebHistory()
-}))
+}));
 
 app.use(ui)
 
